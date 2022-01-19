@@ -10,7 +10,7 @@ var regex = /^[0-9]+$/;
 
 function generatePassword () {
         // User chooses password length
-  var passwordLength = prompt("How long should your password be? (Enter a number from 8 to 128.");
+  var passwordLength = prompt("How long should your password be? (Enter a number from 8 to 128.)");
   
   // If too short
   if (!passwordLength) {
